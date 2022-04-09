@@ -1,0 +1,23 @@
+.messages {
+  position: fixed;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
+  color: #fff;
+  background-color: #4bda73;
+  padding: 3px 8px;
+  border-radius: 5px;
+  // transition: all 1s linear;
+  animation: message-up 1s;
+}
+
+@keyframes message-up {
+  from {
+    top: 30px;
+    opacity: 0;
+  }
+  to {
+    top: 20px;
+    opacity: 1;
+  }
+}

@@ -1,8 +1,9 @@
 import HelloWorld from '@/components/HelloWorld'
 import JsxSlot from '@/components/JsxSlot'
+import UseMessage from '@/components/UseMessage'
 
 export default {
-  components: { HelloWorld, JsxSlot },
+  components: { HelloWorld, JsxSlot, UseMessage },
   data() {
     return {
       parentTitle: 'parent-title'
@@ -24,6 +25,7 @@ export default {
             <div>slot body</div>
           </template>
         </JsxSlot>
+        <UseMessage />
       </div>
     )
   }
